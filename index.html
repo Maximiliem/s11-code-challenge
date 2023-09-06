@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 11 - Code Challenge</title>
+</head>
+<body>
+    
+    <h1>Formulario de registro - Code Challenge by Max</h1>
+
+    <!-- se crea fromulario y el atributo action recibe la url a la que se enviarán los datos del formulario. -->
+    <form>
+        <p class="name">Nombre: <input type="text" name="nombre" required></p>
+        <p class="lastName">Apellido: <input type="text" name="apellido" required></p>
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="bornDate" name="born-date" value="1993-02-28" min="1920-01-01" max="2023-09-05" />
+        <p><input type="submit" value="Enviar mis datos"></p>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
